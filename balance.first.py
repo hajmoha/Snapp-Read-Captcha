@@ -90,7 +90,7 @@ if response.status_code == 200:
                     "client_id": "71C84A80-395B-448E-A240-B7DC939186D3",
                     "solution": captcha_solution,
                     "ref_id": ref_id,
-                    "type": "numeric"
+                    "type": "numeric" 
                 }
             }
             login_response = requests.post(url, headers=headers, data=json.dumps(login_data), verify=False)
